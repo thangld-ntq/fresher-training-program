@@ -107,8 +107,16 @@
 	 echo "chu vi hinh tron la: ".$Criele::dientich(4).'<br>';
 
 	 $Sinhvien = new Sinhvien();
+
+	// in ra thong tin sinh vien trong mot mang
+
 	 print_r($Sinhvien::data_sinhvien($fresherphp[2]));
+	
+	// in ra thuoc tinh sinh vien.
+
 	 print_r($Sinhvien::property($fresherphp[2]));
+	
+	// in ra tuoi cua sinhvien
 	 print_r($Sinhvien::age($fresherphp[1]));		 
 
 ?>
